@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(21, 101, 221);
+    text-align: center;
+
+    .cabecalho{
+        background-color: rgb(112, 152, 238);
+        border-radius: 0.8rem;
+    }
+
+    .sobre{
+        background-color: rgb(112, 152, 238);
+        border-radius: 0.8rem;
+        padding: 1rem;  
+
+        p, img{
+            display: inline-block;
+            float: left;
+        }
+        
+        
+        /*opacity: 0.5;*/
+        
+    }
+
+    .imagem{
+            display: inline-block;
+    }
+
+    .contato{
+        background-color: rgb(112, 152, 238);
+        border-radius: 0.8rem;
+
+
+        /*Alterar, colocar essa div no fundo da tela*/
+        margin-top: 30rem;
+    }
+}
